@@ -1,46 +1,24 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A transição para fontes de energia renovável é problemática essencial parar enfrentar os desafios ambientais e energéticos na contemporaneidade, dessa forma a energia solar se mostra como uma alternativa promissora, tanto no que se refere a redução da conta de energia elétrica, quanto na diminuição da emissão de poluentes e conservação ambiental. No entanto, a escassez de informação sobre os benefícios e processos de contratação e instalação de sistemas solares cria um afastamento das pessoas de alternativas como essa, motivo pelo qual decidimos desenvolver este projeto, buscando facilitar o acesso a informações essenciais relativos a utilização de energia solar, como o custo da instalação, a redução no custo mensal, bem como o lapso temporal necessário para a compensação do custo inicial de instalação, gerando uma economia significativa no custo mensal do residentes do estado de São Paulo, além de promover a preservação do meio ambiente.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A implementação popular de energia solar em residências enfrenta desafios significativos, incluindo a dificuldade de acesso a informações sobre os benefícios de sua adoção, bem como em questões de viabilidade orçamentaria da contratação de empresas de energia solar, representando um desafio substancial para a transição para um modelo energético mais limpo e eficiente. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+#Objetivo Geral
+> Desenvolver um software que funcione como uma plataforma intermediária entre os moradores de São Paulo e as empresas de energia solar da região, no estado de São Paulo.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos
+> Promover a redução da conta de energia elétrica dos contratantes,
+> Reduzir a emissão de poluentes decorrentes da utilização da energia eletétrica da população
+> Facilitar o processo de contratação do serviço de instalação/conversão de placas de energias solares.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A empresa busca facilitar a produção e consumo de energia solar para geração de energia elétrica, com consequente diminuição de emissão de poluentes, como a emissão de carbono, bem como dos problemas ambientas gerados através da construção e utilização de usinas hidrelétricas como por exemplo a destruição da vegetação natural, assoreamento do leito dos rios, desmoronamento de barreiras, extinção de espécies de peixes, por interferência nos processos migratórios e reprodutivos, facilitando os processos de informação e contratação de empresas para instalação de painéis solares.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Adultos, com faixa etária entre 20-60, responsáveis por um domicílio com energia elétrica, condominios, empresas de engenharia e empresas de instalação de sistemas de energia solar, localizados na cidade de São Paulo.
