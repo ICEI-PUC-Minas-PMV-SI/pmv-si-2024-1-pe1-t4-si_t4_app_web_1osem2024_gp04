@@ -12,7 +12,7 @@ A implementação popular de energia solar em residências enfrenta desafios sig
 
 ### Objetivos Específicos
 * Promover a redução da conta de energia elétrica dos contratantes,
-* Reduzir a emissão de poluentes decorrentes da utilização da energia eletétrica da população
+* Reduzir a emissão de poluentes decorrentes da utilização da energia elétrica da população
 * Facilitar o processo de contratação do serviço de instalação/conversão de placas de energias solares.
 
 ## Justificativa
