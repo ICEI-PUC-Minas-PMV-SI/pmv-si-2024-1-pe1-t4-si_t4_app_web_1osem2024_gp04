@@ -17,7 +17,7 @@ A implementação popular de energia solar em residências enfrenta desafios sig
 
 ## Justificativa
 
-A empresa busca facilitar a produção e consumo de energia solar para geração de energia elétrica, com consequente diminuição de emissão de poluentes, como a emissão de carbono, bem como dos problemas ambientas gerados através da construção e utilização de usinas hidrelétricas como por exemplo a destruição da vegetação natural, assoreamento do leito dos rios, desmoronamento de barreiras, extinção de espécies de peixes, por interferência nos processos migratórios e reprodutivos, facilitando os processos de informação e contratação de empresas para instalação de painéis solares.
+O projeto busca facilitar a relação entre moradores da cidade de São Paulo e empresas de sistema de energia solar, para promover produção e consumo de energia solar para geração de energia elétrica, com consequente diminuição de emissão de poluentes, como a emissão de carbono, bem como dos problemas ambientas gerados através da construção e utilização de usinas hidrelétricas como por exemplo a destruição da vegetação natural, assoreamento do leito dos rios, desmoronamento de barreiras, extinção de espécies de peixes, por interferência nos processos migratórios e reprodutivos, facilitando os processos de informação e contratação de empresas para instalação de painéis solares.
 
 ## Público-Alvo
 
