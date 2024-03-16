@@ -7,10 +7,10 @@ A implementação popular de energia solar em residências enfrenta desafios sig
 
 ## Objetivos
 
-#Objetivo Geral
+# Objetivo Geral
 * Desenvolver um software que funcione como uma plataforma intermediária entre os moradores de São Paulo e as empresas de energia solar da região, no estado de São Paulo.
 
-Objetivos Específicos
+# Objetivos Específicos
 * Promover a redução da conta de energia elétrica dos contratantes,
 * Reduzir a emissão de poluentes decorrentes da utilização da energia eletétrica da população
 * Facilitar o processo de contratação do serviço de instalação/conversão de placas de energias solares.
