@@ -47,15 +47,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|------|-------------------------|------------|
+|RF-001| Permitir que o usuário faça cotações a respeito dos custos de instalação em seu domicílio | ALTA | 
+|RF-002| Permitir que o usuário calcule a economia de médio prazo e o tempo de retorno do investimento | ALTA | 
+|RF-003| Permitir o cálculo de redução da pegada de carbono causado pela instalação do sistema  | MÉDIA |
+|RF-004| Prover informações sobre os benefícios da instalação de energia solar para o meio-ambiente | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
+|-------|--------------------------|----------|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
