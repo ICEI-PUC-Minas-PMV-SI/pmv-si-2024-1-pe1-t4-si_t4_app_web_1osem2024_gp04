@@ -13,7 +13,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * José Alexandre Santos Barbosa
 * Luís Márcio de Oliveira Santos
 * Ricardo Gaede Nogueira
-* Nome completo do aluno 4
 
 ## Orientador
 
