@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# CALCULADORA DE ECONOMIA DE CONSUMO DE ENERGIA VIA USO DE PLACAS SOLARES
 
 `Sistema de Informações`
 
@@ -6,7 +6,7 @@
 
 `2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Queremos elaborar uma aplicação web que ofereça uma simulação sobre os impactos na conta de luz da adoção de um sistema de placas solares e sobre os custos de instalação, bem como recomendar serviços de instalação disponíveis na região.
 
 ## Integrantes
 
