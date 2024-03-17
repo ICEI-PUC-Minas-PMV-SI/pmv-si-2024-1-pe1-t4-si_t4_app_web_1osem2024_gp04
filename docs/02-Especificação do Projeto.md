@@ -8,19 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Renato da Silva tem 48 anos, é supervisor de produção em uma fábrica de latas de alumínio. É casado e tem 2 filhos que ainda residem em sua casa. As contas elevadas de energia elétrica são motivos recorrentes de discussões com a família. Costuma dedicar-se bastante à decisões financeiras, sempre fazendo comparações de preço quando deseja comprar algo, ou cotando diversos serviços quando necessário. Não leva muito jeito com questões de informática e costuma pedir ajuda para os filhos para resolver problemas dessa natureza. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Maria Oliveira tem 38 anos. É arquiteta, casada e mãe de uma menina de 5 anos. Maria é engajada com questões de sustentabilidade, tornando esse o foco principal do seu portfolio e de sua presença profissional nas redes sociais, como facebook e instagram. Tem interesse em fazer parcerias com serviços de construção e instalação de sistemas domiciliares.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Jorge Nascimento, 50 anos, casado. É dono de uma pequena empresa de instalação de placas solares que atua na cidade de São Paulo. É entusiasta de novas tecnologias. Apesar da atual pequena capacidade de investimento está sempre buscando formas de expandir seu negócio e almeja um dia tornar sua empresa em uma liderança nacional no mercado. 
 
 ## Histórias de Usuários
 
@@ -28,17 +20,22 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|TEste | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Administrador do sistema| Uma forma de cadastrar empresas de instalação de placas solares  | Para que empresas possam contratar e utilizar o nosso serviço  |
+|Administrador do sistema| Uma forma de remover o cadastro de empresas  | Para que o sistema não oferça dados de empresas que deixaram de contratar o nosso serviço  |
+|Administrador do sistema| Atualizar os dados cadastrais das empresas  | Para que os dados apresentados pelo sistema sejam fiéis às ofertas das empresas  |
+|Dono de uma casa | Simular a economia de consumo de energia que eu teria com a instalação de painéis solares  | Para que eu possa decidir se vale a pena contratar esse serviço  |
+|Dono de uma casa  | Sistema simples de acessar, navegar e utilizar  | Para que eu não precise da ajuda de outras pessoas para utilizar o sistema   |
+|Dono de uma casa  | Que as informações do sistema sejam mostradas de forma clara e concisa  | Para que eu não tenha dificuldades em encontras as informações que me interessam  |
+|Dono de uma casa  | Que o sistema salve as informações resultantes em um formato de fácil acesso e compartilhamento  | Para que possa consultar e compartilhar os resultados facilmente  |
+|Dono de uma casa  | Que os resultados sejam confiáveis e acurados, principalmente quando comparados com sistemas similares ou fórmulas disponíveis  | Para que eu possa ter confiança nas recomendações do sistema |
+|Dono de uma casa  | Informações sobre a área necessária para a instalação que atende as minhas demandas  | Para que eu possa planejar efetivamente a instalação  |
+|Arquiteta  | Dados sobre sustentabilidade do uso de placas solares  | Para que possa verificar se o uso de placas solares se encaixa nos meus projetos sustentáveis  |
+|Arquiteta  | Dados sobre quais empresas atuam nas áreas dos meus projetos  | Para que eu possa saber quais os serviços eu devo contratar ou recomendar para os meus clientes  |
+|Arquiteta  | Dados acurados sobre o custo dos serviços oferecidos  | Para que eu possa orçamentar meus projetos com certo grau de precisão  |
+|Arquiteta  | Um sistema acessível | Para que eu possa recomendá-lo para clientes e colegas |
+|Serviço de instalação de placas solares  | Um meio de atualizar as informações cadastrais da minha empresa  | Para que eu possa manter as informações acuradas caso aconteçam mudanças como área de atendimento ou formas de contato  |
+|Serviço de instalação de placas solares  | Um meio de alterar certos valores de custo imbutidos nos cálculos  | Para que eu possa manter os resultados do sistema atualizados e fiéis aos preços oferecidos pela minha empresa e ao estado atual das tecnologias que eu ofereço  |
+|Serviço de instalação de placas solares  | Dados sobre o uso do sistema  | Para que eu possa saber se o sistema está de fato agregando valor ao meu negócio  |
 
 ## Requisitos
 
