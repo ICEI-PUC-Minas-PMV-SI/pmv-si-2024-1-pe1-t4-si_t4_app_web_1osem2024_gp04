@@ -59,8 +59,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| O sistema deve ter um UI simples, a fim de facilitar o uso para o público-alvo |  ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
