@@ -13,6 +13,7 @@ Queremos elaborar uma aplicação web que ofereça uma simulação sobre os impa
 * José Alexandre Santos Barbosa
 * Luís Márcio de Oliveira Santos
 * Ricardo Gaede Nogueira
+* Fabricio Junio da Silva
 
 ## Orientador
 
