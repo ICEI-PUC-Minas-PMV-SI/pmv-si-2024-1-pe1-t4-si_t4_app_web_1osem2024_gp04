@@ -6,6 +6,6 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 
 HTML e CSS estão disponíveis na pasta src do projeto:
 
- <a href="../src/index.html"> 
- <a href="../src/style.css>
+ <a href="../src/index.html"> HTML </a>
+ <a href="../src/style.css"> CSS </a>
 
