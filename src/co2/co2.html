@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CO2 calculator">
+    <title>CO2 Calculator</title>
+
+    <link rel="stylesheet" href="co2.style.css">
+    <script src="co2.script.js"></script>
+</head>
+<body>
+        <div class="calculator">
+            <div class="box">
+                <img src="co2.png" alt="CO² Icon">
+                   <h2>Calculadora de Emissão de CO²</h2>                   
+                   <form id="carbonCalculator">
+                        <label for="energyConsumption" class="form-label">Qual seu consumo mensal de energia elétrica?</label>
+                        <input type="text" class="form-input" id="energyConsumption" placeholder="KWh">
+                        <button type="button" onclick="calculateCO2()">Calcular</button>
+                   </form>
+                   <div class="results" id="CO2results"></div>
+            </div>
+        </div>
+</body>
+</html>
