@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #91CEFF;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 1300px;
+    background: #0060CA;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cont .box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.cont .box p {
+    text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+form button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+
+#primeira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    background-color: #FCDC74;
+    border-radius: 10px;
+}
+
+
+#segunda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #090089;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+#segunda h2 {
+    margin: 20xpx;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #91CEFF;
+}
+
+
+/*----- Início FAQ -----*/
+#acordeon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 95%;
+}
+
+#acordeon li{
+    list-style: none;
+    width: 70%;
+    margin-bottom: 20px;
+    background: #91CEFF;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#acordeon li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#acordeon h2 {
+    color: white;
+}
+
+#acordeon li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+}
+
+#acordeon label + input[type="radio"]{
+    display: none;
+}
+
+#acordeon .resposta {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+} 
+
+#acordeon label + input[type="radio"]:checked + .resposta{
+    max-height: 400px;;
+}
+/*----- Fim FAQ -----*/
+
+/* https://colorhunt.co/palette/0900890060ca91cefffcdc74 */
