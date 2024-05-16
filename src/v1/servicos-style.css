@@ -1,0 +1,13 @@
+#terceira {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0060CA;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+  
