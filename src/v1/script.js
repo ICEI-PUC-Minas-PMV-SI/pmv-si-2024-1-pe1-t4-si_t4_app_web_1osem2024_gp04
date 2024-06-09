@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     let nome = document.getElementById('nome')
     let email = document.getElementById('email')
     let dataList = document.getElementById('dataList')
+    let legenda = document.getElementById('legenda')
 
 
 formulario.addEventListener('submit', (e) => {
@@ -40,7 +41,8 @@ function calcularConta(){
     console.log(valorConta)
     console.log(resultado)
 
-
+resultado.removeAttribute('hidden')
+legenda.removeAttribute('hidden')
 resultado.value = `O investimento será de R$ ${total.toFixed(2)}`
 }
 
