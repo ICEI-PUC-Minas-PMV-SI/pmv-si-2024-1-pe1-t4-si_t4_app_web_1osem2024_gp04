@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     background-color: #91CEFF;
@@ -19,7 +22,7 @@ body {
     height: 400px;
     padding: 40px;
     position: relative;
-    background: #0060CA;
+    background: #FCDC74;
     border-radius: 20px;
     margin: 20px;
     color: white;
