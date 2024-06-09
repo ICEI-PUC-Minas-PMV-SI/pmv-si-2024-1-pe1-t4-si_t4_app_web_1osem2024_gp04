@@ -1,0 +1,39 @@
+body {
+    background-color: #002354;
+}
+
+.custom-navbar {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-background {
+    background-image: url(bg_img1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bgcolor-1 {
+    background-color: #ffd073;
+}
+
+.bgcolor-2 {
+    background-color: #ffffff;
+}
+
+.bgcolor-3 {
+    background-color: #2f63cc;
+}
+
+.bgcolor-4 {
+    background-color: #002354;
+}
+
+.fcolor-1 {
+    color: #ffffff;
+}
+
+.ws-nowrap {
+    white-space: nowrap;
+}
+
