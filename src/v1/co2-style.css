@@ -1,7 +1,4 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 0;
     background-color: #91CEFF;
@@ -18,9 +15,9 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 400px;
-    height: 400px;
-    padding: 40px;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
     position: relative;
     background: #FCDC74;
     border-radius: 20px;
@@ -41,7 +38,7 @@ form {
     flex-direction: column;
     align-items: center;
     height: auto;
-    gap: 10px;
+    gap: 16px;
 }
 
 ::placeholder{
@@ -70,7 +67,6 @@ form button:hover {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-top: 10px;
     align-self: center;
 }
 
@@ -78,6 +74,7 @@ form button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 
 .results p {
