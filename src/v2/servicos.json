@@ -1,0 +1,41 @@
+[
+    {
+        "name": "SolFeliz Painéis Solares",
+        "number_1": "(11)9999-9991",
+        "number_2": "(11)9999-9992",
+        "website": "www.solfeliz.com.br",
+        "img_src": "https://picsum.photos/200?x=0"
+    },
+
+    {
+        "name": "Anta Azul - Instalação de Placas Solares",
+        "number_1": "(11)9999-9993",
+        "number_2": "(11)9999-9994",
+        "website": "www.antaazul.com.br",
+        "img_src": "https://picsum.photos/200?x=1"
+    },
+
+    {
+        "name": "Jurandir - Placas Solares & Acupuntura",
+        "number_1": "(11)9999-9995",
+        "number_2": "(11)9999-9996",
+        "website": "www.jurandirmestremilenar.com.br",
+        "img_src": "https://picsum.photos/200?x=3"
+    },
+
+    {
+        "name": "O Sol é uma Conspiração da Esquerda",
+        "number_1": "(11)9999-9997",
+        "number_2": "(11)9999-9998",
+        "website": "www.solagrandementira.org.br",
+        "img_src": "https://picsum.photos/200?x=4"
+    },
+
+    {
+        "name": "Empresa Real de Verdade",
+        "number_1": "(11)9999-9999",
+        "number_2": "(11)9999-9910",
+        "website": "www.nuncasequestrariamosseucachorro.com.br",
+        "img_src": "https://picsum.photos/200?x=5"
+    }
+]

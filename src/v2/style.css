@@ -1,0 +1,109 @@
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont .box {
+    width: 600px;
+    height: 550px;
+    padding: 40px;
+    position: relative;
+    background: #ffd073;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cont .box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+form button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+form button:hover {
+    background-color: grey;
+    color: white;
+    border-color: white;
+}
+
+
+#primeira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    background-color: #FCDC74;
+    border-radius: 10px;
+}
+
+
+#segunda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #090089;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+#segunda h2 {
+    margin: 20xpx;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #91CEFF;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 1px;
+    align-self: center;
+}
+
+/* https://colorhunt.co/palette/0900890060ca91cefffcdc74 */
