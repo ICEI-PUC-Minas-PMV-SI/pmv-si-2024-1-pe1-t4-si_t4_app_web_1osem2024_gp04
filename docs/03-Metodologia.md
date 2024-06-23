@@ -37,4 +37,4 @@ CSS - Adicionado para adicionar estilos a página web.
 
 Bootstrap – Utilizado para o desenvolvimento front-end da aplicação, facilitando a criação de uma interface web.
 
-Arquivo JSON / Local Storage– Foram Utilizados para simular um back-end da aplicação.
+Arquivo JSON / Local Storage– Foram Utilizados para simular um back-end na aplicação.
