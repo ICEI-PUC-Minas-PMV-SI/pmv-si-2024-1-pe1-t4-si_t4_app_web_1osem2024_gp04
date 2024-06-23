@@ -9,5 +9,5 @@ A interface da aplicação visa oferecer simplicidade em sua navegação e clare
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/Wireframe Calc.png)
+![Exemplo de Wireframe](img/wireframe_calculadora.png)
 
