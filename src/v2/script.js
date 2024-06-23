@@ -22,7 +22,8 @@ function salvarLocalStorage(){
         nome: nome.value,
         email: email.value,
         valorConta: valorConta.value,
-        resultado: resultado.value
+        resultado: resultado.value,
+        contato: false
     }
     potenciasClientes.push(data)
 
@@ -54,14 +55,49 @@ function displayData() {
     let data = JSON.parse(localStorage.getItem('data')) || []
 
     dataList.innerHTML = ''
-
+    
     data.forEach(item => {
         const li = document.createElement('li')
-        li.textContent = `Nome: ${item.nome}, Email: ${item.email}, Valor da Conta: ${item.valorConta}, Resultado: ${item.resultado}`
-        dataList.appendChild(li)
-    });
-}
+        const checkbox = document.createElement('button')
+        checkbox.innerText = 'Contato'
+        checkbox.id = 'contato'
+        checkbox.style.backgroundColor = 'green'
+        checkbox.style.width = '100px'
 
+        if (item.contato === false){
+            checkbox.style.backgroundColor = 'red'
+        }
+
+        else{
+            checkbox.style.backgroundColor = 'green'
+        }
+
+        li.textContent = `Nome: ${item.nome}, Email: ${item.email}, Valor da Conta: R$ ${item.valorConta}, Resultado: ${item.resultado}, Cliente Contactado: ${item.contato}`
+        dataList.appendChild(li)
+        dataList.appendChild(checkbox)
+        
+        checkbox.addEventListener('click', function(){
+            if(item.contato === false){
+                item.contato = true
+             
+                alert('Cliente contactado com sucesso')
+            }
+            else{
+                item.contato = false
+                alert('Cliente desmarcado como contactado')
+            
+            }
+            
+            localStorage.setItem('data', JSON.stringify(data));
+            window.location.reload()
+            
+            
+    }
+    )
+            
+    })
+    
+    }
 function clearData() {
     localStorage.clear()
     alert('Todos os dados foram excluídos do LocalStorage')
