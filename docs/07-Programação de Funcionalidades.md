@@ -10,7 +10,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
 Permite calcular a quantidade de emissão de carbono gerada na produção de uma determinada quantidade de energia elétrica, levando em consideração a sua fonte original de produção. Atendendo ao requisito funcional RF-003 qual seja, "permitir o cálculo da pegada de carbono de acordo com o consumo de uma quantidade de kWh".
 
-ˋˋˋjavascript
+~~~javascript
 function calculateCO2() {
     var energyInput = document.getElementById("energyConsumption").value;
 
@@ -32,7 +32,7 @@ function calculateCO2() {
         "<p>Se proveniente de gás natural: " + gasEmission.toFixed(2) + " kg de CO².</p>" +
         "<p>Se proveniente de energia hidrelétrica: " + hydroEmission.toFixed(2) + " kg de CO².</p>";
 }
-ˋˋˋ
+~~~
 
 > **Links Úteis**:
 >
