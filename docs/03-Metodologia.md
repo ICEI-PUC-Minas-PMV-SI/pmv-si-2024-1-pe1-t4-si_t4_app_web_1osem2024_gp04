@@ -21,7 +21,7 @@ Por falta de familiaridade com ferramentas externas, utilizamos apenas o Teams p
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas empregadas no projeto foram:
 
 Figma - Editor gráfico de vetor e prototipagem de projetos de design.
 
