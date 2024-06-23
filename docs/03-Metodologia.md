@@ -25,7 +25,7 @@ As ferramentas empregadas no projeto foram:
 
 Figma - Editor gráfico de vetor e prototipagem de projetos de design.
 
-Visual Studio - IDE utilizada para o desenvolvimento do projeto e edição do código.
+Visual Studio Code - IDE utilizada para o desenvolvimento do projeto e edição do código.
 
 Github - Ferramenta utilizada para controle de versão e hospedagem do código.
 
