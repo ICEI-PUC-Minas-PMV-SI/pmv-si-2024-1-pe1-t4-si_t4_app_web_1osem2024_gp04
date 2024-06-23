@@ -47,7 +47,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-------------------------|------------|
 |RF-001| Permitir que o usuário faça cotações a respeito dos custos de instalação em seu domicílio | ALTA | 
 |RF-002| Permitir que o usuário calcule a economia de médio prazo e o tempo de retorno do investimento | ALTA | 
-|RF-003| Permitir o cálculo de redução da pegada de carbono causado pela instalação do sistema  | MÉDIA |
+|RF-003| Permitir o cálculo da pegada de carbono de acordo com o consumo de uma quantidade de kWh | MÉDIA |
 |RF-004| Prover informações sobre os benefícios da instalação de energia solar para o meio-ambiente | MÉDIA |
 
 
