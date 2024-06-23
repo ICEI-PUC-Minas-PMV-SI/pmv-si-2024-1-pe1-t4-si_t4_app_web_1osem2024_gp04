@@ -1,77 +1,40 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Para idealizar o projeto, realizamos pesquisas usando ferramentas como Google e consultamos a documentação oficial das tecnologias utilizadas. As reuniões de equipe foram conduzidas pelo Teams. Para o design da aplicação, utilizamos o Figma. Utilizamos o GitHub para versionamento e hospedagem do projeto. Na fase de codificação, optamos pelo VSCode como IDE, utilizando HTML para estruturar o site e Bootstrap 5.3.3 como base para o desenvolvimento da interface. As personalizações visuais foram feitas com CSS, enquanto as demais funcionalidades foram implementados em JavaScript. 
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+A ferramenta adotada para o controle de versionamento e hospodagem de repositório foi o Github.
 
 ## Gerenciamento de Projeto
 
+Por ser um projeto inicial e pela falta de familiaridade com as ferramentas de versionamento, decidimos utilizar apenas a branch principal. Dividimos as tarefas de modo que cada integrante trabalhasse em arquivos distintos, com o objetivo de evitar conflitos.
+
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A divisão de papéis entre os membros do grupo foi inspirada na metodologia Scrum, e as tarefas foram divididas principalmente em reuniões semanais. Nestas reuniões, determinávamos em comum acordo as atividades que cada membro da equipe realizaria durante a semana. Para a comunicação diária, optamos pela comunicação assíncrona através de um grupo no WhatsApp.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Por falta de familiaridade com ferramentas externas, utilizamos apenas o Teams para comunicação síncrona e definição das tarefas semanais, e o WhatsApp para comunicação assíncrona sobre o progresso de cada tarefa em desenvolvimento naquela semana, permitindo o acompanhamento por todos os membros do grupo.
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Figma - Editor gráfico de vetor e prototipagem de projetos de design.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Visual Studio - IDE utilizada para o desenvolvimento do projeto e edição do código.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Github - Ferramenta utilizada para controle de versão e hospedagem do código.
+
+HTML - Utilizado para a construção da estrutura da página web.
+
+JavaScript – Linguagem utilizada para o desenvolvimento web front-end da aplicação.
+
+CSS - Adicionado para adicionar estilos a página web.
+
+Bootstrap – Utilizado para o desenvolvimento front-end da aplicação, facilitando a criação de uma interface web.
+
+Arquivo JSON / Local Storage– Foram Utilizados para simular um back-end da aplicação.
