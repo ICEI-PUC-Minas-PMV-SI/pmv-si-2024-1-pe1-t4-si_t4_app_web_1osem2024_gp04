@@ -5,7 +5,7 @@ A interface da aplicação visa oferecer simplicidade em sua navegação e clare
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow_v1.png)
+![Exemplo de UserFlow](img/userflow_v2.png)
 
 ## Wireframes
 
