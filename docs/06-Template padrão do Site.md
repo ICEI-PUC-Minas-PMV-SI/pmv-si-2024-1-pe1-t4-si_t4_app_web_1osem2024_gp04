@@ -1,11 +1,10 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+![Template do Projeto](img/layout_generico.png)
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 HTML e CSS estão disponíveis na pasta src do projeto:
 
- <a href="../src/index.html"> HTML </a>,
- <a href="../src/style.css"> CSS </a>
+ <a href="../src/v2/new-template.html"> HTML </a>,
+ <a href="../src/v2/new-style.css"> CSS </a>
 
