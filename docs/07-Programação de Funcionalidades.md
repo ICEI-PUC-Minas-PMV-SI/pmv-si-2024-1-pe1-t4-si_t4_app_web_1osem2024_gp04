@@ -6,6 +6,15 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
+> **Links Úteis**:
+>
+> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
+> - [JSON Tutorial](https://www.w3resource.com/JSON)
+> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
+> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
+> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
+
 ## Calculadora de Pegada de Carbono
 
 Permite calcular a quantidade de emissão de carbono gerada na produção de uma determinada quantidade de energia elétrica, levando em consideração a sua fonte original de produção. Atendendo ao requisito funcional RF-003 qual seja, "permitir o cálculo da pegada de carbono de acordo com o consumo de uma quantidade de kWh".
@@ -33,11 +42,3 @@ function calculateCO2() {
         "<p>Se proveniente de energia hidrelétrica: " + hydroEmission.toFixed(2) + " kg de CO².</p>";
 }
 ~~~
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
