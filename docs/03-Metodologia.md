@@ -5,7 +5,7 @@ Para idealizar o projeto, realizamos pesquisas usando ferramentas como Google e 
 
 ## Controle de Versão
 
-A ferramenta adotada para o controle de versionamento e hospodagem de repositório foi o Github.
+A ferramenta adotada para o controle de versionamento e hospedagem de repositório foi o Github.
 
 ## Gerenciamento de Projeto
 
