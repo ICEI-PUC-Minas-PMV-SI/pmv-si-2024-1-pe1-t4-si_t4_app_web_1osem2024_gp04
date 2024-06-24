@@ -45,18 +45,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-------------------------|------------|
 |RF-001| Permitir que o usuário faça cotações a respeito dos custos de instalação em seu domicílio | ALTA | 
-|RF-002| Permitir que o usuário calcule a economia de médio prazo e o tempo de retorno do investimento | ALTA | 
-|RF-003| Permitir o cálculo da pegada de carbono de acordo com o consumo de uma quantidade de kWh | MÉDIA |
-|RF-004| Prover informações sobre os benefícios da instalação de energia solar para o meio-ambiente | MÉDIA |
-
-
+|RF-002| Permitir o cálculo da pegada de carbono de acordo com o consumo de uma quantidade de kWh | ALTA |
+|RF-003| Prover informações sobre os benefícios da instalação de energia solar para o meio-ambiente | ALTA |
+|RF-004| Prover informações sobre quais são os serviços de instalação disponíveis localmente | ALTA |
+|RF-005| Permitir que o administrador colete dados dos usuários como nome, email e valor do consumo mensal de energia | MÉDIA |
+|RF-006| Permitir que os dados coletados dos usuários possam ser editados e atualizados  | MÉDIA |
+|RF-007| Permitir que os dados coletados dos usuários sejam apagados | MÉDIA |
+|RF-008| Prover informações sobre os desenvolvedores do sistema | MÉDIA |
+|RF-009| Permitir a navegação entre as diferentes páginas da aplicação | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|--------------------------|----------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| O sistema deve ter um UI simples, a fim de facilitar o uso para o público-alvo |  ALTA | 
+|RNF-001| O sistema deve ser responsivo para rodar em browsers no modo desktop | ALTA | 
+|RNF-002| O sistema deve ter uma UI simples, a fim de facilitar o uso para o público-alvo | ALTA |
+
 
 ## Restrições
 
