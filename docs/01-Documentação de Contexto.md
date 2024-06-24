@@ -8,16 +8,17 @@ A implementação popular de energia solar em residências enfrenta desafios sig
 ## Objetivos
 
 ### Objetivo Geral
-* Desenvolver um software que funcione como uma plataforma intermediária entre os moradores de São Paulo e as empresas de energia solar da região, no estado de São Paulo.
+* Se utilizar dos conhecimentos desenvolvidos ao longo do 1° semestre do curso de Sistemas de Informação e elaborar um projeto que promova a conscientização sobre os benefícios do uso de placas solares como meio sustentável de se suplementar a demanda de energia doméstica, e que estimule e facilite a adoção desta tecnologia.
 
 ### Objetivos Específicos
-* Promover a redução da conta de energia elétrica dos contratantes;
-* Reduzir a emissão de poluentes decorrentes da utilização da energia elétrica da população;
-* Facilitar o processo de contratação do serviço de instalação/conversão de placas de energias solares.
+* Desenvolver uma aplicação web de fácil acesso.
+* Oferecer ferramentas que facilitem a adoção do uso de placas solares.
+* Oferecer informações de qualidade sobre energia sustentável.
+
 
 ## Justificativa
 
-O projeto busca facilitar a relação entre moradores da cidade de São Paulo e empresas de sistema de energia solar, para promover produção e consumo de energia solar para geração de energia elétrica, com consequente diminuição de emissão de poluentes, como a emissão de carbono, bem como dos problemas ambientas gerados através da construção e utilização de usinas hidrelétricas como por exemplo a destruição da vegetação natural, assoreamento do leito dos rios, desmoronamento de barreiras, extinção de espécies de peixes, por interferência nos processos migratórios e reprodutivos, facilitando os processos de informação e contratação de empresas para instalação de painéis solares.
+O projeto busca facilitar a busca de informações sobre a adoção do uso de placas solares em domicílios, e assim promover produção e consumo de energia solar para geração de energia elétrica, com consequente diminuição de emissão de poluentes, como a emissão de carbono, bem como dos problemas ambientas gerados através da construção e utilização de usinas hidrelétricas como por exemplo a destruição da vegetação natural, assoreamento do leito dos rios, desmoronamento de barreiras, extinção de espécies de peixes, por interferência nos processos migratórios e reprodutivos, facilitando os processos de informação e contratação de empresas para instalação de painéis solares.
 
 ## Público-Alvo
 
