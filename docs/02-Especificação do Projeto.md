@@ -52,7 +52,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Permitir que os dados coletados dos usuários possam ser editados e atualizados  | MÉDIA |
 |RF-007| Permitir que os dados coletados dos usuários sejam apagados | MÉDIA |
 |RF-008| Prover informações sobre os desenvolvedores do sistema | MÉDIA |
-|RF-009| Permitir a navegação entre as diferentes páginas da aplicação | MÉDIA |
+|RF-009| Permitir a navegação entre as diferentes páginas da aplicação | ALTA |
 
 ### Requisitos não Funcionais
 
