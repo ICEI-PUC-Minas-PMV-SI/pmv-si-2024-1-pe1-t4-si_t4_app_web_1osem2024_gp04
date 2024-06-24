@@ -144,3 +144,11 @@ Nesta etapa, a integração de todas as páginas foram avaliadas, visando avalia
 ### Resultados
 
 Todas as páginas possuem integração entre sí. Nenhum erro ou falha foram identificados.
+
+## Conclusão Geral
+
+De modo geral, a aplicação permite que o usuário faça uma cotação aproximada do investimento necessário para instalação de energia via placas solares, permite o cálculo da pegada de carbono de acordo com a matriz energética, baseado no consumo em kWh, promove informações sobre os benefícios da instalação de energia solar para o meio-ambiente, promove informações sobre quais os serviços de instalação estão disponíveis localmente.
+
+Nas parte de administração, permite que o administradore colete dados dos usuários, como nome, e-mail e valor do consumo mensal de energia e os edite conforme necessário. Também permite que estes dados sejam apagados, de acordo com a necessidade.
+
+Portanto, os requisitos funcionais e não funcionais são cumpridos, conforme proposto.
