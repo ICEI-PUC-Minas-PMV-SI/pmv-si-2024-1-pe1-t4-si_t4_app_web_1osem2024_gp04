@@ -1,10 +1,14 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Nosso projeto será uma aplicação web que terá como objetivo prover informações importantes sobre o uso de placas solares para suplementar o fornecimento de energia em domicílios, estimulando a adoção desta tecnologia sustentável. Para este fim, nossa aplicação oferecerá ferramentas como: 
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+- **Calculadora de Energia Solar**: permitirá ao usuário calcular o investimento necessário para a adoção das placas solares mediante o seu consumo médio mensal de energia.
+- **Calculadora de Pegada de Carbono**: permitirá ao usuário calcular o impacto ambiental que o seu consumo de energia mensal produz.
+- **Lista de Serviços**: uma página que irá listar os serviços locais de instalação de placas solares.
+- **Perguntas Frequentes**: uma página que mostrará respostas a certas perguntas frequentes sobre o tópico de energia sustentável.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A aplicação também permitirá que o administrador do sistema colete e organize dados voluntariados pelos usuários.
+
 
 ## Personas
 
@@ -12,7 +16,7 @@ Renato da Silva tem 48 anos, é supervisor de produção em uma fábrica de lata
 
 Maria Oliveira tem 38 anos. É arquiteta, casada e mãe de uma menina de 5 anos. Maria é engajada com questões de sustentabilidade, tornando esse o foco principal do seu portfolio e de sua presença profissional nas redes sociais, como facebook e instagram. Tem interesse em fazer parcerias com serviços de construção e instalação de sistemas domiciliares.
 
-Jorge Nascimento, 50 anos, casado. É dono de uma pequena empresa de instalação de placas solares que atua na cidade de São Paulo. É entusiasta de novas tecnologias. Apesar da atual pequena capacidade de investimento está sempre buscando formas de expandir seu negócio e almeja um dia tornar sua empresa em uma liderança nacional no mercado. 
+Jorge Nascimento, 28 anos, casado. É o administrador do sistema. É formado em Engenharia de Energias Sustentáveis e tem 4 anos de experiência na área. É apaixonado por divulgação científica e está sempre procurando formas de engajar o público com a causa da sustentabilidade ambiental. 
 
 ## Histórias de Usuários
 
@@ -20,22 +24,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Administrador do sistema| Uma forma de cadastrar empresas de instalação de placas solares  | Para que empresas possam contratar e utilizar o nosso serviço  |
-|Administrador do sistema| Uma forma de remover o cadastro de empresas  | Para que o sistema não ofereça dados de empresas que deixaram de contratar o nosso serviço  |
-|Administrador do sistema| Atualizar os dados cadastrais das empresas  | Para que os dados apresentados pelo sistema sejam fiéis às ofertas das empresas  |
-|Dono de uma casa | Simular a economia de consumo de energia que eu teria com a instalação de painéis solares  | Para que eu possa decidir se vale a pena contratar esse serviço  |
-|Dono de uma casa  | Sistema simples de acessar, navegar e utilizar  | Para que eu não precise da ajuda de outras pessoas para utilizar o sistema   |
-|Dono de uma casa  | Que as informações do sistema sejam mostradas de forma clara e concisa  | Para que eu não tenha dificuldades em encontrar as informações que me interessam  |
-|Dono de uma casa  | Que o sistema salve as informações resultantes em um formato de fácil acesso e compartilhamento  | Para que possa consultar e compartilhar os resultados facilmente  |
-|Dono de uma casa  | Que os resultados sejam confiáveis e acurados, principalmente quando comparados com sistemas similares ou fórmulas disponíveis  | Para que eu possa ter confiança nas recomendações do sistema |
-|Dono de uma casa  | Informações sobre a área necessária para a instalação que atende as minhas demandas  | Para que eu possa planejar efetivamente a instalação  |
+|Administrador do sistema| Uma forma de obter dados de pessoas interessadas em energia solar  | Para que eu possa utilizar esses dados em outros empreendimentos |
+|Administrador do sistema| Uma forma de atualizar os dados dos usuários  | Para que eu possa organizar os dados coletados  |
+|Administrador do sistema| Uma forma de apagar os dados dos usuários  | Para que eu possa organizar os dados coletados | 
+|Proprietário de casa | Simular a economia de consumo de energia que eu teria com a instalação de painéis solares  | Para que eu possa decidir se vale a pena contratar esse serviço  |
+|Proprietário de casa  | Sistema simples de acessar, navegar e utilizar  | Para que eu não precise da ajuda de outras pessoas para utilizar o sistema   |
+|Proprietário de casa  | Que as informações do sistema sejam mostradas de forma clara e concisa  | Para que eu não tenha dificuldades em encontrar as informações que me interessam  |
+|Proprietário de casa  | Que os resultados sejam confiáveis e acurados, principalmente quando comparados com sistemas similares ou fórmulas disponíveis  | Para que eu possa ter confiança nas recomendações do sistema |
 |Arquiteta  | Dados sobre sustentabilidade do uso de placas solares  | Para que possa verificar se o uso de placas solares se encaixa nos meus projetos sustentáveis  |
 |Arquiteta  | Dados sobre quais empresas atuam nas áreas dos meus projetos  | Para que eu possa saber quais os serviços eu devo contratar ou recomendar para os meus clientes  |
 |Arquiteta  | Dados acurados sobre o custo dos serviços oferecidos  | Para que eu possa orçamentar meus projetos com certo grau de precisão  |
 |Arquiteta  | Um sistema acessível | Para que eu possa recomendá-lo para clientes e colegas |
-|Serviço de instalação de placas solares  | Um meio de atualizar as informações cadastrais da minha empresa  | Para que eu possa manter as informações acuradas caso aconteçam mudanças como área de atendimento ou formas de contato  |
-|Serviço de instalação de placas solares  | Um meio de alterar certos valores de custo embutidos nos cálculos  | Para que eu possa manter os resultados do sistema atualizados e fiéis aos preços oferecidos pela minha empresa e ao estado atual das tecnologias que eu ofereço  |
-|Serviço de instalação de placas solares  | Dados sobre o uso do sistema  | Para que eu possa saber se o sistema está de fato agregando valor ao meu negócio  |
 
 ## Requisitos
 
