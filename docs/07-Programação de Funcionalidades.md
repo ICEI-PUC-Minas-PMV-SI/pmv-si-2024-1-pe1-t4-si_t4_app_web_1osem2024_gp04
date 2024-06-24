@@ -4,7 +4,52 @@
 
 ## [RF-001] Permitir que o usuário faça cotações a respeito dos custos de instalação em seu domicílio
 
-[]
+Função a qual recebe os valores digitados pelo usuários em um formulário html e renderiza o cálcalo na página para usuário
+
+~~~javascript
+let legenda = document.getElementById('legenda')
+let resultado = document.getElementById('resultado')
+
+function calcularConta(){
+    let conta = document.getElementById('valorConta')
+    let valorConta = Number(conta.value)
+    let total = valorConta * 26
+    console.log(valorConta)
+    console.log(resultado)
+
+resultado.removeAttribute('hidden')
+legenda.removeAttribute('hidden')
+resultado.value = `O investimento será de R$ ${total.toFixed(2)}`
+}
+
+~~~html
+
+<div class="cont">
+        <div class="box">
+               <h2>Calculadora de Energia Solar</h2>
+               <img src="solar-panel.png" alt="">
+               <form action="" id="formulario">
+                <div class="mb-3">
+                    <label for="" class="form-label">Digite seu nome</label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="">
+                    <label for="" class="form-label">Informe seu e-mail</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="exemplo@contato.com.br">
+                    <label for="" class="form-label">Qual o valor da sua conta de energia?</label>
+                    <input type="text" class="form-control" id="valorConta", placeholder="R$ 0,00">
+                   
+                    
+                </div>
+
+                <button type="submit" class="" onclick="calcularConta()">Calcular</button>
+                <br>
+                    <label for="" class="form-label" hidden id="legenda">Investimento Necessário para zerar a conta!</label>
+                    <input type="text" name="" id="resultado"  class="form-control" disabled hidden>
+               
+               </form>
+            </div>
+        </div>
+    </div>
+
 
 <br>
 
@@ -195,19 +240,96 @@ function createCards(numCards) {
 
 ## [RF-005]	Permitir que o administrador colete dados dos usuários como nome, email e valor do consumo mensal de energia
 
-[]
+Função que armazena no localstorage as informações inseridas pelo usuário no formulário de cotação
+
+~~~javascript 
+
+function salvarLocalStorage(){
+    let potenciasClientes = JSON.parse(localStorage.getItem('data')) || []
+
+    let data ={
+        nome: nome.value,
+        email: email.value,
+        valorConta: valorConta.value,
+        resultado: resultado.value,
+        contato: false
+    }
+    potenciasClientes.push(data)
+
+    localStorage.setItem('data', JSON.stringify(potenciasClientes))
+    
+    alert('Dados salvos com sucesso')
+
+    
+}
 
 <br>
 
 ## [RF-006]	Permitir que os dados coletados dos usuários possam ser editados e atualizados
 
-[]
+Função que permite visualização e manipulação dos dados salvos no localstorage
+
+~~~javascript 
+
+function displayData() {
+    let data = JSON.parse(localStorage.getItem('data')) || []
+
+    dataList.innerHTML = ''
+    
+    data.forEach(item => {
+        const li = document.createElement('li')
+        const checkbox = document.createElement('button')
+        checkbox.innerText = 'Contato'
+        checkbox.id = 'contato'
+        checkbox.style.backgroundColor = 'green'
+        checkbox.style.width = '100px'
+
+        if (item.contato === false){
+            checkbox.style.backgroundColor = 'red'
+        }
+
+        else{
+            checkbox.style.backgroundColor = 'green'
+        }
+
+        li.textContent = `Nome: ${item.nome}, Email: ${item.email}, Valor da Conta: R$ ${item.valorConta}, Resultado: ${item.resultado}, Cliente Contactado: ${item.contato}`
+        dataList.appendChild(li)
+        dataList.appendChild(checkbox)
+        
+        checkbox.addEventListener('click', function(){
+            if(item.contato === false){
+                item.contato = true
+             
+                alert('Cliente contactado com sucesso')
+            }
+            else{
+                item.contato = false
+                alert('Cliente desmarcado como contactado')
+            
+            }
+            
+            localStorage.setItem('data', JSON.stringify(data));
+            window.location.reload()
+            
+            
+    }
+    )
+            
+    })
+    
+    }
 
 <br>
 
 ## [RF-007]	Permitir que os dados coletados dos usuários sejam apagados
 
-[]
+Função que permite deletar os dados do localstorage
+
+function clearData() {
+    localStorage.clear()
+    alert('Todos os dados foram excluídos do LocalStorage')
+    dataList.innerHTML = ''
+}
 
 <br>
 

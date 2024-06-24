@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    var resultado = document.getElementById('resultado')
+    let resultado = document.getElementById('resultado')
     let formulario = document.getElementById('formulario')
     let nome = document.getElementById('nome')
     let email = document.getElementById('email')
