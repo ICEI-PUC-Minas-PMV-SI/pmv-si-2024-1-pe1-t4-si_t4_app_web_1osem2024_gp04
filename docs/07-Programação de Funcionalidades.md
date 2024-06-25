@@ -22,6 +22,8 @@ legenda.removeAttribute('hidden')
 resultado.value = `O investimento será de R$ ${total.toFixed(2)}`
 }
 
+~~~
+
 ~~~html
 
 <div class="cont">
@@ -50,6 +52,7 @@ resultado.value = `O investimento será de R$ ${total.toFixed(2)}`
         </div>
     </div>
 
+~~~
 
 <br>
 
@@ -263,6 +266,8 @@ function salvarLocalStorage(){
     
 }
 
+~~~
+
 <br>
 
 ## [RF-006]	Permitir que os dados coletados dos usuários possam ser editados e atualizados
@@ -319,9 +324,13 @@ function displayData() {
     
     }
 
+~~~
+
 <br>
 
 ## [RF-007]	Permitir que os dados coletados dos usuários sejam apagados
+
+~~~javascript
 
 Função que permite deletar os dados do localstorage
 
@@ -330,6 +339,8 @@ function clearData() {
     alert('Todos os dados foram excluídos do LocalStorage')
     dataList.innerHTML = ''
 }
+
+~~~
 
 <br>
 
